@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.authors = ["Michael Gall"]
   s.email = %q{michael@wakeless.net}
 
-  s.add_dependency %q<rails>, ["~> 3.0.0"]
+  s.add_dependency %q<rails>, [">= 3.0.0"]
 
   s.add_development_dependency %q<rspec-rails>, ["~> 2.5.0"]
   s.add_development_dependency %q<webrat>, ["~> 0.7.3"]
